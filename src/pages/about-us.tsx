@@ -1,5 +1,7 @@
 import React from "react";
 import { leftQuote, rightQuote } from "../../imagesPaths";
+import { Layout } from '@/components/layout'
+import { ReactElement } from 'react'
 
 const AboutUs = () => {
   return (
@@ -63,7 +65,6 @@ const AboutUs = () => {
         </section>
       </div>
     </div>
-
     
 
     </section>
@@ -73,3 +74,9 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
+
+AboutUs.getLayout = function getLayout(page: ReactElement){
+    return <Layout>{page}</Layout>
+  }
+  

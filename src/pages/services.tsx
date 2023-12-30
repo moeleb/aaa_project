@@ -1,5 +1,7 @@
 import * as React from "react";
 import { artistGallery } from "../../imagesPaths";
+import { Layout } from '@/components/layout'
+import { ReactElement } from 'react'
 
 const Services = () => {
   return (
@@ -62,3 +64,8 @@ const Services = () => {
 };
 
 export default Services;
+
+
+Services.getLayout = function getLayout(page: ReactElement){
+    return <Layout>{page}</Layout>
+  }

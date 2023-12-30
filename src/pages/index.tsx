@@ -5,7 +5,9 @@ import { ReactElement } from 'react'
 
  const Home = () => {
   return (
-    <div> This is the home page </div>
+    <div>
+
+    </div>
   )
 }
 export default Home;
