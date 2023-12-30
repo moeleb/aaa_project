@@ -1,0 +1,1 @@
+export const servicesLogo = "/images/servicesLogo.png";
