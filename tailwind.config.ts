@@ -15,7 +15,7 @@ const config: Config = {
       },
       colors: {
         primary: "#112658;",
-        quoteColor: "#19F0DF",
+        main: "#19F0DF",
 
         
       },

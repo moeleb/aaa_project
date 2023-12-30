@@ -14,10 +14,10 @@ export const Layout = ({children}:LayoutProps ) => {
     return (
         <div className="flex h-screen flex-col">
             <Navbar/>
+            <main className="mx-auto w-full grow">{children}</main>
 
             <Footer/>
 
-        <main className="mx-auto w-full grow">{children}</main>
 
         </div>
     )

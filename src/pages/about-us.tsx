@@ -29,8 +29,15 @@ const AboutUs = () => {
                   <p className="self-stretch text-blue-950 text-xl italic leading-8 w-full ml-3 mt-2.5 max-md:max-w-full" aria-label="John's statement">
                     We exceed our client expectation by offering a superior level of assistance when needed. <br /> We exceed our client expectation by offering a superior level of assistance when needed.
                   </p>
+
+                  <img
+                    loading="lazy"
+                    src = {rightQuote}
+                    className="aspect-[1.42] object-contain object-center w-[34px] overflow-hidden max-w-full ml-3 self-start max-md:ml-2.5"
+                    alt="John's profile picture"
+                  />
                   
-                  <div className="self-stretch text-xl font-bold leading-4 uppercase mt-7 max-md:max-w-full text-quoteColor">
+                  <div className="self-stretch text-xl font-bold leading-4 uppercase mt-7 max-md:max-w-full text-main">
                     John D.
                   </div>
                 </div>
@@ -39,7 +46,29 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      <div className="justify-center self-stretch bg-main px-20 py-11 max-md:px-5">
+      <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <header className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
+          <div className="justify-center items-stretch flex flex-col my-auto p-7 max-md:max-w-full max-md:mt-10 max-md:px-5">
+            <h1 className="text-blue-950 text-center text-5xl font-bold leading-10 uppercase max-md:max-w-full max-md:text-4xl" aria-label="Mission"> Mission </h1>
+            <div className="text-black text-center text-base font-medium leading-6 mt-2.5 max-md:max-w-full" aria-label="Mission Description"> We have built up the AAA edifice on the unbreakable employee-customer relationship. Our mission pinpoints nothing else but to serve their needs and wants. </div>
+          </div>
+        </header>
+        <section className="flex flex-col items-stretch w-6/12 ml-5 max-md:w-full max-md:ml-0">
+          <div className="justify-center items-stretch flex grow flex-col p-7 max-md:max-w-full max-md:mt-10 max-md:px-5">
+            <h1 className="text-blue-950 text-center text-5xl font-bold leading-10 uppercase max-md:max-w-full max-md:text-4xl" aria-label="Vision"> Vision </h1>
+            <div className="text-black text-center text-base font-medium leading-6 mt-2.5 max-md:max-w-full" aria-label="Vision Description"> To provide responsive services in the field of Extended Warranty and Added Value Services for the Automotive & Consumer Electronics Markets, positioning the company as one of the leading players in the domain </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    
+
     </section>
+
+    
   );
 };
 
