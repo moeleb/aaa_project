@@ -4,5 +4,5 @@ export const rightQuote = "/images/rightQuote.svg";
 export const artistGallery = "/images/artistGallery.png";
 export const aaaLogo = "/images/aaa_logo.png";
 export const backgroundImage = "/images/bgImage.jpeg";
-
-
+export const homebg = "/images/homebg.jpeg";
+export const phone = "/images/phone.png";

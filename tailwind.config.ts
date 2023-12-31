@@ -16,7 +16,7 @@ const config: Config = {
       colors: {
         primary: "#112658;",
         main: "#19F0DF",
-
+        secondary: "#F0F2F5"
         
       },
       fontFamily:{
