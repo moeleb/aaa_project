@@ -1,5 +1,5 @@
 import React from "react";
-import { leftQuote, rightQuote } from "../../imagesPaths";
+import { leftQuote, rightQuote, driving } from "../../imagesPaths";
 import { Layout } from '@/components/layout'
 import { ReactElement } from 'react'
 
@@ -106,7 +106,34 @@ import { ReactElement } from 'react'
 const AboutUs = () => {
   return (
     <>
-       <section className="justify-center items-stretch self-stretch bg-gray-100 flex flex-col py-12">
+       <section className="">
+       <div className="bg-primary">
+  <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+  <div>
+      <img
+        loading="lazy"
+        srcSet= {driving}
+        className="aspect-[0.83] object-contain object-center w-full overflow-hidden max-w-[427px]"
+        aria-label="image"
+      />
+    </div>
+    <div className="flex flex-col items-stretch w-[54%] max-md:w-full max-md:ml-0">
+      <div className="justify-center items-stretch flex flex-col my-auto pl-7 pr-16 py-7 max-md:max-w-full max-md:mt-10 max-md:px-5">
+        
+        <header className="text-main text-5xl font-bold leading-10 uppercase max-md:max-w-full max-md:text-4xl max-md:leading-10">
+          Always within reach
+        </header>
+        <div className="text-black text-base font-medium leading-6 mt-2.5 max-md:max-w-full">
+        Established in Michigan in 2015, AAA Warranty Services is an American company licensed internationally to offer vehicle extended warranties, comparable to manufacturers' own. 
+        Quickly gaining global traction, our services have expanded to cover a range of products, including electronic appliances. Beyond warranties, we provide added value services
+         like Roadside Assistance and Vehicle Replacement. Operating in over seven countries, we proudly serve over a million clients, making us a leading provider of Extended Warranty programs worldwide.        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
 
     <div className="self-stretch py-10 max-md:pr-5">
       <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">

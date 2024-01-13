@@ -23,3 +23,4 @@ export const clock  = "/images/clock.png";
 
 
 export const aaasymbol = "/images/alwayswithinreach.png"
+export const driving = "/images/driving.png"
