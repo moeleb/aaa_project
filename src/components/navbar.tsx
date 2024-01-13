@@ -66,6 +66,7 @@
 
 import React from 'react';
 import { servicesLogo } from "../../imagesPaths";
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -102,6 +103,8 @@ const Navbar = () => {
         >
           Services
         </a>
+        <Link href="/insurance">
+
         <button
           className="text-white text-sm font-bold uppercase whitespace-nowrap items-stretch bg-blue-950 self-stretch grow justify-center p-2.5 hover:bg-green-500 transition duration-300 ease-in-out"
           type="button"
@@ -109,13 +112,17 @@ const Navbar = () => {
         >
           Get Insured Now
         </button>
-        <button
-          className="text-blue-950 text-sm font-bold uppercase whitespace-nowrap items-stretch self-stretch aspect-[1.8108108108108107] justify-center p-2.5 border-[0.5px] border-solid border-blue-950 hover:bg-green-500 transition duration-300 ease-in-out"
-          type="button"
-          role="button"
-        >
-          Login
-        </button>
+        </Link>
+
+        <Link href="/login">
+            <button
+              className="text-blue-950 text-sm font-bold uppercase whitespace-nowrap items-stretch self-stretch aspect-[1.8108108108108107] justify-center p-2.5 border-[0.5px] border-solid border-blue-950 hover:bg-green-500 transition duration-300 ease-in-out"
+              type="button"
+              role="button"
+            >
+              Login
+            </button>
+          </Link>
       </div>
     </form>
   );
