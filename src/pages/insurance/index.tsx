@@ -1,5 +1,7 @@
 import { Layout } from '@/components/layout';
 import { ReactElement } from 'react';
+import { upload } from "../../../imagesPaths";
+
 
 const Insurance = () => {
   return (
@@ -93,7 +95,7 @@ const Insurance = () => {
       <div className="justify-between items-center flex gap-2.5 mt-3 px-5 py-4 border-[0.5px] border-solid border-blue-950 max-md:max-w-full max-md:flex-wrap">
         <img
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/b70def0b8c4cc31326c1af11681daef0a0394c9cc32cded92acd17d808135428?apiKey=25adeeab20ac40e68f827a20942f028a&"
+          src= {upload}
           className="aspect-square object-contain object-center w-[25px] overflow-hidden shrink-0 max-w-full my-auto"
         />{" "}
         <label className="justify-center items-stretch self-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
@@ -111,7 +113,7 @@ const Insurance = () => {
         </label>
 
       </div>{" "}
-      
+
         <div className="flex gap-2.5 mt-4 max-md:flex-wrap max-md:pl-5 justify-end">
         <button
             type="button"
