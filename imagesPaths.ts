@@ -20,3 +20,6 @@ export const phoneFooter = "/images/phoneFooter.png";
 export const mail  = "/images/mail.png";
 export const location  = "/images/location.png";
 export const clock  = "/images/clock.png";
+
+
+export const aaasymbol = "/images/alwayswithinreach.png"
